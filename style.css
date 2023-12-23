@@ -1,0 +1,42 @@
+*{
+    margin: 0; padding: 0;
+    font-family: sans-serif;
+}
+body, html{
+    margin: 0; padding: 0;
+    height: 100%;
+}
+body{
+    background-color: rgba(3, 3, 33, 0.883);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+.container{
+    color: wheat;
+    justify-content: center;
+    align-content: center;
+}
+input{
+    border: none; outline: none;
+    padding: 5px;
+    background-color: wheat;
+    border-radius: 3px;
+    color: blue;
+    position: relative;
+}
+button{
+    padding: 5px;
+    border: none; outline: none;
+    background-color: rgba(58, 129, 250, 0.748);
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+}
+#icon{
+    position: relative;
+    left: -27px;
+    color: rgb(87, 26, 26);
+}
